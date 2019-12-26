@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: georgia, helvetica, sans serif; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -10px;
+  color: #f8f8f8;
+  font-family: futura;
+}
+
+.h1-border {
+  background-color: #f75353;
+  padding: 0.8rem 0.625rem;
+  border-radius: 0.50rem;
+  width: 50%;
+}
+
+form {
+  padding: 2.5rem 0.625rem;
+  border: 7px solid #f75353;
+  border-radius: 0.50rem;
+  width: 50%;
+}
+
+textarea { /* change the textarea input to a class */
+  width: 100%;
+}
+
+p {
+  font-family: georgia, helvetica, sans-erif;
+  font-size: 1.2rem;
+  margin: 0 2% 0 2%;
+  
+}
+
+#name, #email, #number, #dropdown, 
+#radio-buttons, #dropdown, #improve {
+  width: 95%;
+  margin: 0 2% 0 2%;
+  height: 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  color: #darkgrey;
+  background-color: #ffffff;
+}
+
+#comment-area {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 30%;
+  padding: 0 2.5% 0 2%;
+}
+
+
+#submit {
+  height: 3rem;
+  margin-top: 2%;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #ff7373;
+  width: 100%;
+}
+
+#submit:hover {
+  background-color: #f75353;
+  color: #000000;
+}
